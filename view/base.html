@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/normalize.min.css" />
+  {% block head %}
+    <title>{% block title %}{% endblock %} - Framework MVC</title>
+  {% endblock %}
+</head>
+<body>
+  <div id="content">
+    {% block content %}
+    <h1 style="font-size: 7.5rem; text-align: center">Welcome to My Awesome Framework MVC!</h1>
+    {% endblock %}
+  </div>
+  <div id="footer">
+    {% block footer %}
+      <p>&copy; Copyright 2015 by <a href="mailto://marti.adrogue@gmail.com">martí adrogué</a>.</p>
+    {% endblock %}
+  </div>
+</body>
+</html>

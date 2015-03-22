@@ -1,0 +1,28 @@
+{
+    "name": "martiadrogue/framework",
+    "description": "A MVC aplication.",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/martiadrogue/mpwarfwk.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.6",
+        "martiadrogue/mpwarfwk": "dev-devel"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martí Adrogué",
+            "email": "marti.adrogue@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
